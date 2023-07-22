@@ -1,5 +1,5 @@
 function downloadPDF() {
-  const url = "/pdfs/conhecendo-o-jamstack.pdf"
+  const url = "./pdfs/conhecendo-o-jamstack.pdf"
   fetch(url)
     .then((response) => response.blob())
     .then((blob) => {
