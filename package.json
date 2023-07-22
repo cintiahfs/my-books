@@ -1,0 +1,11 @@
+{
+  "name": "my-books",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "sass": "sass --watch style.scss style.css"
+  },
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
+}
